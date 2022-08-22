@@ -1,5 +1,5 @@
 {% set name = "xeofs" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xeofs-{{ version }}.tar.gz
-  sha256: ab3700370349dba7b4bda261471c1af01f9f00ed5bd4791e74098a5bb4537743
+  sha256: aa4d752eba26393c2e15bfaede7dff7d5f79aaf4cfeda8dd322790e3ea876db8
 
 build:
   noarch: python
@@ -27,6 +27,7 @@ requirements:
     - python >=3.8
     - scikit-learn >=1.0.2,<2.0.0
     - xarray >=0.21.1,<0.22.0
+    - tqdm >=4.64.0,<5.0.0
 
 test:
   imports:
