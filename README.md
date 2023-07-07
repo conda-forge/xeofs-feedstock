@@ -1,11 +1,11 @@
-About xeofs
-===========
+About xeofs-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xeofs-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/nicrie/xeofs
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xeofs-feedstock/blob/main/LICENSE.txt)
 
 Summary: Collection of EOF analysis and related techniques for climate science
 
