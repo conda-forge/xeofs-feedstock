@@ -1,5 +1,5 @@
 {% set name = "xeofs" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xeofs-{{ version }}.tar.gz
-  sha256: 822c5cbd2f48cdde24155e1e8fc2e4a36923e7819483285abecc59c2aeeee6f9
+  sha256: d0210c1ba730545223b3a54d69020cb2babcbf34acf0989f0e8b626ecdf6b95b
 
 build:
   noarch: python
