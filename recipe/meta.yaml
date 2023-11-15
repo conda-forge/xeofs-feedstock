@@ -1,5 +1,5 @@
 {% set name = "xeofs" %}
-{% set version = "2.0.2" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xeofs-{{ version }}.tar.gz
-  sha256: 9ae3844f4439beddfcac8bdef622bdb1e7da3fb114bfe398d1d25d8ed301c339
+  sha256: f1576df3dfc98c9a168194241c505b291151860beacc21261213a993c28bfdf7
 
 build:
   noarch: python
@@ -22,8 +22,8 @@ requirements:
     - poetry-core >=1.5
     - python >=3.10,<3.12
   run:
-    - numpy >=1.19.2,<2.0.0
-    - numba >=0.57
+    - numpy >=1.24,<1.25
+    - numba >=0.57,<0.58
     - pandas >=1.4.1,<2.0.0
     - pooch >=1.6.0,<2.0.0
     - python >=3.10,<3.12
@@ -37,6 +37,7 @@ requirements:
     - tqdm >=4.64.0,<5.0.0
     - typing-extensions >=4.8
     - xarray-datatree >=0.0.5
+    - zarr >=2.0.0
 
 test:
   imports:
