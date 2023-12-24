@@ -22,9 +22,9 @@ requirements:
     - poetry-core >=1.5
     - python >=3.10,<3.12
   run:
-    - numpy >=1.24,<1.25
-    - numba >=0.57,<0.58
-    - pandas >=1.4.1,<2.0.0
+    - numpy >=1.24
+    - numba >=0.57
+    - pandas >=2.0.0
     - pooch >=1.6.0,<2.0.0
     - python >=3.10,<3.12
     - poetry >=1.5
